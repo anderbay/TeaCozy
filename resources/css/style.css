@@ -8,8 +8,11 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+}
+
+img {
+  opacity: 0.9;
 }
 
 h2, h3, h4 {
@@ -38,6 +41,7 @@ header img {
   display: inline-flex;
   height: 50px;
   padding-left: 10px;
+  opacity: 1;
 }
 
 nav {
@@ -69,6 +73,7 @@ nav a {
   width: 1200px;
   height: 700px;
   margin: 0 auto;
+  opacity: 0.9;
 }
 
 .black_bar {
@@ -95,9 +100,12 @@ nav a {
   padding-top: 30px;
 }
 
-.captionimage_box  {
+.flex_center {
   display: inline-flex;
   justify-content: center;
+}
+
+.captionimage_box  {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
@@ -127,6 +135,7 @@ nav a {
   display: block;
   justify-content: center;
   background: url("../images/img-locations-background.jpg") no-repeat center top;
+  opacity: 0.9;
   margin: 0 auto;
   width: 1200px;
   height: 570px;
